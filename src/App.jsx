@@ -1,9 +1,14 @@
+import { useState } from 'react'
 import './App.css'
 
 function App() {
+  const [toastVisible, setToastVisible] = useState(false)
+
   function copyEmail(e) {
     e.preventDefault()
     navigator.clipboard.writeText('davidhgpinfo@gmail.com')
+    setToastVisible(true)
+    setTimeout(() => setToastVisible(false), 2000)
   }
 
   return (
@@ -22,6 +27,7 @@ function App() {
           </div>
         </div>
       </div>
+      {toastVisible && <div className="toast">Email copied</div>}
       <footer className="site-status">Under construction. Check back soon.</footer>
     </>
   )
