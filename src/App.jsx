@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import BackgroundAnimation from './components/BackgroundAnimation'
 
 function App() {
   const [toastVisible, setToastVisible] = useState(false)
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <>
+      <BackgroundAnimation />
       <div className="page">
         <div>
           <h1 className="name">David Hong</h1>

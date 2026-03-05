@@ -45,6 +45,12 @@ Added fixed footer with "Under construction. Check back soon." to signal the sit
 
 ---
 
+## 2026-03-05 — BackgroundAnimation
+
+Added `BackgroundAnimation` component: fullscreen 2D canvas constellation mesh (slow-moving dots + proximity lines) rendered at z-index 0 behind all content. Throttled to 30fps; dot count scales by breakpoint (80/50/30) for performance.
+
+---
+
 ## 2026-03-04 — Architecture
 
 **Decision:** Vite + React + Tailwind CSS v4. No Next.js.
