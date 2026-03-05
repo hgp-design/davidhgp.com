@@ -63,7 +63,7 @@ export default function BackgroundAnimation() {
           const dy = dots[i].y - dots[j].y
           const d = Math.sqrt(dx * dx + dy * dy)
           if (d < THRESHOLD) {
-            ctx.globalAlpha = 0.4 * (1 - d / THRESHOLD)
+            ctx.globalAlpha = 0.5 * (1 - d / THRESHOLD)
             ctx.beginPath()
             ctx.moveTo(dots[i].x, dots[i].y)
             ctx.lineTo(dots[j].x, dots[j].y)
