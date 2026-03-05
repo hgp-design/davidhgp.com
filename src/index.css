@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+:root {
+  /* Colors */
+  --color-background: hsl(0, 0%, 7%);
+  --color-surface: hsl(0, 0%, 11%);
+  --color-surface-hover: hsl(0, 0%, 14%);
+  --color-border: hsl(0, 0%, 18%);
+  --color-text-primary: hsl(0, 0%, 87%);
+  --color-text-secondary: hsl(0, 0%, 55%);
+  --color-text-muted: hsl(0, 0%, 35%);
+  --color-accent: hsl(40, 65%, 55%);
+  --color-accent-hover: hsl(40, 65%, 65%);
+
+  /* Typography */
+  --font-primary: 'Geist Sans', sans-serif;
+  --font-mono: 'Geist Mono', monospace;
+
+  /* Type scale */
+  --text-display-lg: 57px;
+  --text-display-md: 45px;
+  --text-display-sm: 36px;
+  --text-headline-lg: 32px;
+  --text-headline-md: 28px;
+  --text-headline-sm: 24px;
+  --text-title-xl: 22px;
+  --text-title-lg: 18px;
+  --text-title-md: 16px;
+  --text-title-sm: 14px;
+  --text-body-lg: 16px;
+  --text-body-md: 14px;
+  --text-body-sm: 12px;
+  --text-label-lg: 14px;
+  --text-label-md: 13px;
+  --text-label-sm: 12px;
+  --text-label-xs: 11px;
+
+  /* Tracking (letter-spacing) */
+  --tracking-display: -0.02em;
+
+  /* Elevation */
+  --shadow-level-1: 0 1px 3px hsl(0, 0%, 0%, 0.4);
+
+  /* Spacing (4px base) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 28px;
+  --space-8: 32px;
+  --space-9: 36px;
+  --space-10: 40px;
+  --space-11: 44px;
+  --space-12: 48px;
+
+  /* Tooltip */
+  --tooltip-font-size: var(--text-label-md);
+  --tooltip-color: var(--color-text-primary);
+  --tooltip-bg: var(--color-surface);
+  --tooltip-border: 1px solid var(--color-border);
+  --tooltip-radius: var(--space-1);
+  --tooltip-padding: var(--space-1) var(--space-2);
+  --tooltip-shadow: var(--shadow-level-1);
+  --tooltip-offset: var(--space-2);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  font-family: var(--font-primary);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
