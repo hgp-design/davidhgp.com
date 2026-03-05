@@ -1,6 +1,11 @@
 import './App.css'
 
 function App() {
+  function copyEmail(e) {
+    e.preventDefault()
+    navigator.clipboard.writeText('davidhgpinfo@gmail.com')
+  }
+
   return (
     <>
       <div className="page">
@@ -12,7 +17,7 @@ function App() {
               <a className="link" href="https://linkedin.com/in/guangpyo">LinkedIn</a>
             </span>
             <span data-tooltip="Copy email: davidhgpinfo@gmail.com">
-              <a className="link" href="mailto:davidhgpinfo@gmail.com">Email</a>
+              <a className="link" href="#" onClick={copyEmail}>Email</a>
             </span>
           </div>
         </div>
