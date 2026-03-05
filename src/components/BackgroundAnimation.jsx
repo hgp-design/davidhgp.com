@@ -6,7 +6,7 @@ const FRAME_MS = 1000 / FPS
 const PULSE_PERIOD = 4500
 const GRID_SPACING = 90
 const GRID_ANGLE = 5 * Math.PI / 180
-const DURATIONS = { scatter: 8000, converge: 6000, hold: 1000, dissolve: 6000 }
+const DURATIONS = { scatter: 1600, converge: 6000, hold: 1000, dissolve: 6000 }
 const NEXT_PHASE = { scatter: 'converge', converge: 'hold', hold: 'dissolve', dissolve: 'converge' }
 
 function getDotCount() {
