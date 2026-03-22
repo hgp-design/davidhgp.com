@@ -1,0 +1,16 @@
+.placeholder-pair {
+  display: flex;
+  gap: var(--space-4);
+  margin-bottom: var(--space-8);
+}
+
+.placeholder-pair .placeholder-block {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+@media (max-width: 639px) {
+  .placeholder-pair {
+    flex-direction: column;
+  }
+}

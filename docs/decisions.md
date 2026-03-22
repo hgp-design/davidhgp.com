@@ -51,6 +51,24 @@ Added `BackgroundAnimation` component: fullscreen 2D canvas constellation mesh (
 
 ---
 
+## 2026-03-22 — React Router + page architecture
+
+Added `react-router-dom`; moved landing page content into `src/pages/Home.jsx` with a `useEffect`-based `home-active` class for scoped `overflow: hidden`. Created `src/layouts/CaseStudyLayout.jsx` and `src/components/common/PlaceholderBlock.jsx` as reusable primitives for case study pages.
+
+---
+
+## 2026-03-22 — Case study Layer 3
+
+Added Fraunces as display font (`--font-display`) for article titles, `--layout-content-center` token to replace hardcoded 720px, article meta block (author/date), share links row, and `PlaceholderPair` component for side-by-side placeholder layouts; improves editorial structure and visual hierarchy of case study pages.
+
+---
+
+## 2026-03-22 — PlaceholderBlock breakout width
+
+Added `--layout-content-wide: 960px` token and a `width` prop to `PlaceholderBlock` (default `"wide"`) that applies a negative-margin breakout pattern, allowing image placeholders to exceed the 720px article column while keeping body text at content width.
+
+---
+
 ## 2026-03-04 — Architecture
 
 **Decision:** Vite + React + Tailwind CSS v4. No Next.js.

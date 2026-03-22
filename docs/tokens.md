@@ -22,6 +22,7 @@ All tokens are defined as CSS custom properties in `src/index.css` under `:root`
 |---|---|
 | `--font-primary` | `'Geist Sans', sans-serif` |
 | `--font-mono` | `'Geist Mono', monospace` |
+| `--font-display` | `'Fraunces', serif` |
 
 ### Type scale
 
@@ -37,9 +38,11 @@ All tokens are defined as CSS custom properties in `src/index.css` under `:root`
 | `--text-title-lg` | 18px |
 | `--text-title-md` | 16px |
 | `--text-title-sm` | 14px |
+| `--text-body-xl` | 18px |
 | `--text-body-lg` | 16px |
 | `--text-body-md` | 14px |
 | `--text-body-sm` | 12px |
+| `--text-label-xl` | 16px |
 | `--text-label-lg` | 14px |
 | `--text-label-md` | 13px |
 | `--text-label-sm` | 12px |
@@ -69,6 +72,13 @@ All tokens are defined as CSS custom properties in `src/index.css` under `:root`
 | `--tooltip-padding` | `--space-1 --space-2` (4px 8px) |
 | `--tooltip-shadow` | `--shadow-level-1` |
 | `--tooltip-offset` | `--space-2` (8px) |
+
+## Layout
+
+| Token | Value |
+|---|---|
+| `--layout-content-center` | `720px` |
+| `--layout-content-wide` | `960px` |
 
 ## Spacing
 

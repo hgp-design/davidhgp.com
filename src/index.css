@@ -11,10 +11,12 @@
   --color-text-muted: hsl(0, 0%, 35%);
   --color-accent: hsl(40, 65%, 55%);
   --color-accent-hover: hsl(40, 65%, 65%);
+  --color-white: #ffffff;
 
   /* Typography */
   --font-primary: 'Geist Sans', sans-serif;
   --font-mono: 'Geist Mono', monospace;
+  --font-display: 'Fraunces', serif;
 
   /* Type scale */
   --text-display-lg: 57px;
@@ -27,9 +29,11 @@
   --text-title-lg: 18px;
   --text-title-md: 16px;
   --text-title-sm: 14px;
+  --text-body-xl: 18px;
   --text-body-lg: 16px;
   --text-body-md: 14px;
   --text-body-sm: 12px;
+  --text-label-xl: 16px;
   --text-label-lg: 14px;
   --text-label-md: 13px;
   --text-label-sm: 12px;
@@ -64,10 +68,10 @@
   --tooltip-padding: var(--space-1) var(--space-2);
   --tooltip-shadow: var(--shadow-level-1);
   --tooltip-offset: var(--space-2);
-}
 
-html {
-  overflow: hidden;
+  /* Layout */
+  --layout-content-center: 720px;
+  --layout-content-wide: 960px;
 }
 
 body {
@@ -75,7 +79,6 @@ body {
   color: var(--color-text-primary);
   font-family: var(--font-primary);
   margin: 0;
-  overflow: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
