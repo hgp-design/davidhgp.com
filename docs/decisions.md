@@ -69,6 +69,18 @@ Added `--layout-content-wide: 960px` token and a `width` prop to `PlaceholderBlo
 
 ---
 
+## 2026-03-24 — --radius-md token
+
+Added `--radius-md: var(--space-6)` (24px) border-radius token and applied it to all case study visual containers (ToolChaosField, ToolPairingsGrid, PlaceholderBlock) to enforce consistent corners; also added `background: var(--color-surface)` to PlaceholderBlock.
+
+---
+
+## 2026-03-24 — ToolPairingsGrid component
+
+Added `ToolPairingsGrid` component to replace the Context section placeholder in the AI Control Surface case study; wide-breakout 3×3 grid communicating the fragmented AI tool landscape.
+
+---
+
 ## 2026-03-04 — Architecture
 
 **Decision:** Vite + React + Tailwind CSS v4. No Next.js.

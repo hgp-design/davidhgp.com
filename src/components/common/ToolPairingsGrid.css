@@ -1,0 +1,71 @@
+.tool-pairings-grid-wrapper {
+  width: var(--layout-content-wide);
+  max-width: calc(100vw - var(--space-8));
+  margin-left: calc((var(--layout-content-wide) - var(--layout-content-center)) / -2);
+  margin-bottom: var(--space-8);
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  padding: var(--space-8);
+}
+
+.tool-pairings-caption {
+  font-family: var(--font-primary);
+  font-size: var(--text-body-md);
+  color: var(--color-text-secondary);
+  text-align: center;
+  margin-bottom: var(--space-6);
+}
+
+.tool-pairings-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-4);
+}
+
+.tool-pairings-cell {
+  border: 1px solid var(--color-border);
+  border-radius: var(--space-2);
+  padding: var(--space-6);
+}
+
+.tool-pairings-cell-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.tool-pairings-logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.tool-pairings-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.tool-pairings-name {
+  font-family: var(--font-primary);
+  font-size: var(--text-title-md);
+  color: var(--color-text-primary);
+  font-weight: 500;
+}
+
+.tool-pairings-subtitle {
+  font-family: var(--font-primary);
+  font-size: var(--text-label-md);
+  color: var(--color-text-secondary);
+}
+
+@media (max-width: 640px) {
+  .tool-pairings-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .tool-pairings-cell:last-child {
+    grid-column: 1 / -1;
+  }
+}

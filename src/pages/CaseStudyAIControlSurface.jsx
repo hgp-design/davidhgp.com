@@ -4,7 +4,8 @@ import { FaLinkedin } from 'react-icons/fa6'
 import { IoMail, IoLink } from 'react-icons/io5'
 import CaseStudyLayout from '../layouts/CaseStudyLayout'
 import PlaceholderBlock from '../components/common/PlaceholderBlock'
-import PlaceholderPair from '../components/common/PlaceholderPair'
+import ToolChaosField from '../components/common/ToolChaosField'
+import ToolPairingsGrid from '../components/common/ToolPairingsGrid'
 
 function CaseStudyAIControlSurface() {
   return (
@@ -26,28 +27,14 @@ function CaseStudyAIControlSurface() {
 
       <p className="article-subtitle">Different tools, different workflows, a lot of dead ends. One solution changed how I thought about AI and design systems entirely.</p>
 
-      <PlaceholderBlock
-        id="tool-logos"
-        label="Tool logos — Lovable, Figma, Cursor, Claude Code — arranged as a progression or flow. Launchpad/icon grid style. Sits between title and intro copy."
-      />
-
-      <p className="article-body">That solution came out of one of the more chaotic periods of my career.</p>
+      <ToolChaosField />
 
       <hr className="article-divider" />
 
       <h2 className="article-heading">The Context</h2>
       <p className="article-body">As Principal Designer at Kontakt.io, I was essentially acting head of design across five concurrent clinical products with one other designer on the team. Leadership mandated a GenAI-first process. Access to tools wasn't the problem. Knowing how to use them well, in the right sequence, with the right guardrails, was something the design landscape is still figuring out.</p>
 
-      <PlaceholderPair
-        left={{
-          id: 'context-questions',
-          label: 'Three questions as a visual element — \u201cWhere do you even begin? Which tools, in what order? How do you make it stick?\u201d — three icons or symbols with questions as labels. Frames the case study as an answer to questions the whole industry is sitting with.',
-        }}
-        right={{
-          id: 'context-tool-grid',
-          label: 'Grid of tool pairings/stacks showing the landscape of options — Figma + MCP, VS Code + Claude Code extension, Cursor + Claude Code, Lovable standalone, etc. Illustrates the decision complexity before the solution is introduced. Tool logos with pairing indicators.',
-        }}
-      />
+      <ToolPairingsGrid />
 
       <hr className="article-divider" />
 

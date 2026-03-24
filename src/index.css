@@ -69,6 +69,9 @@
   --tooltip-shadow: var(--shadow-level-1);
   --tooltip-offset: var(--space-2);
 
+  /* Border Radius */
+  --radius-md: var(--space-6);
+
   /* Layout */
   --layout-content-center: 720px;
   --layout-content-wide: 960px;

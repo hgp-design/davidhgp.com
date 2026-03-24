@@ -60,6 +60,12 @@ All tokens are defined as CSS custom properties in `src/index.css` under `:root`
 |---|---|
 | `--shadow-level-1` | `0 1px 3px hsl(0, 0%, 0%, 0.4)` |
 
+## Border Radius
+
+| Token | Value |
+|---|---|
+| `--radius-md` | `var(--space-6)` (24px) |
+
 ## Tooltip
 
 | Token | Maps to |
