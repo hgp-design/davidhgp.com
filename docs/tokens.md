@@ -66,6 +66,16 @@ All tokens are defined as CSS custom properties in `src/index.css` under `:root`
 |---|---|
 | `--radius-md` | `var(--space-6)` (24px) |
 
+## Button — Primary
+
+| Token | Maps to |
+|---|---|
+| `--btn-primary-bg` | `--color-accent` |
+| `--btn-primary-bg-hover` | `--color-accent-hover` |
+| `--btn-primary-text` | `--color-background` (dark text on amber) |
+| `--btn-primary-radius` | `--space-1` (4px) |
+| `--btn-primary-padding` | `--space-2 --space-4` (8px 16px) |
+
 ## Tooltip
 
 | Token | Maps to |

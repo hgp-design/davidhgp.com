@@ -69,6 +69,13 @@
   --tooltip-shadow: var(--shadow-level-1);
   --tooltip-offset: var(--space-2);
 
+  /* Button — Primary */
+  --btn-primary-bg: var(--color-accent);
+  --btn-primary-bg-hover: var(--color-accent-hover);
+  --btn-primary-text: var(--color-background);
+  --btn-primary-radius: var(--space-1);
+  --btn-primary-padding: var(--space-2) var(--space-4);
+
   /* Border Radius */
   --radius-md: var(--space-6);
 
