@@ -69,6 +69,18 @@
   --tooltip-shadow: var(--shadow-level-1);
   --tooltip-offset: var(--space-2);
 
+  /* Dropdown */
+  --dropdown-min-width: 160px;
+  --dropdown-bg: var(--color-surface);
+  --dropdown-border: 1px solid var(--color-border);
+  --dropdown-radius: var(--btn-primary-radius);
+  --dropdown-shadow: var(--shadow-level-1);
+  --dropdown-item-padding: var(--btn-primary-padding);
+  --dropdown-item-font-size: var(--text-label-lg);
+  --dropdown-item-color: var(--color-text-secondary);
+  --dropdown-item-hover-bg: var(--color-surface-hover);
+  --dropdown-item-hover-color: var(--color-text-primary);
+
   /* Button — Primary */
   --btn-primary-bg: var(--color-accent);
   --btn-primary-bg-hover: var(--color-accent-hover);

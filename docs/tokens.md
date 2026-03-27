@@ -66,6 +66,21 @@ All tokens are defined as CSS custom properties in `src/index.css` under `:root`
 |---|---|
 | `--radius-md` | `var(--space-6)` (24px) |
 
+## Dropdown
+
+| Token | Maps to |
+|---|---|
+| `--dropdown-min-width` | `160px` |
+| `--dropdown-bg` | `--color-surface` |
+| `--dropdown-border` | `1px solid --color-border` |
+| `--dropdown-radius` | `--btn-primary-radius` (4px) |
+| `--dropdown-shadow` | `--shadow-level-1` |
+| `--dropdown-item-padding` | `--btn-primary-padding` (8px 16px) |
+| `--dropdown-item-font-size` | `--text-label-lg` (14px) |
+| `--dropdown-item-color` | `--color-text-secondary` |
+| `--dropdown-item-hover-bg` | `--color-surface-hover` |
+| `--dropdown-item-hover-color` | `--color-text-primary` |
+
 ## Button — Primary
 
 | Token | Maps to |

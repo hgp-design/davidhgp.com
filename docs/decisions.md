@@ -81,6 +81,12 @@ Added `ToolPairingsGrid` component to replace the Context section placeholder in
 
 ---
 
+## 2026-03-27 — DropdownButton component
+
+Added `DropdownButton` compound component (`DropdownButton.Item` sub-component) with `--dropdown-*` token namespace; replaces the unreliable staggered-download hack with a menu that lets users choose Resume or Portfolio individually.
+
+---
+
 ## 2026-03-04 — Architecture
 
 **Decision:** Vite + React + Tailwind CSS v4. No Next.js.

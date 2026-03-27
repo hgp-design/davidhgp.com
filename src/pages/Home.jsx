@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './Home.css'
 import BackgroundAnimation from '../components/BackgroundAnimation'
-import { FaDownload } from 'react-icons/fa6'
+import DropdownButton from '../components/common/DropdownButton'
 
 function Home() {
   const [toastVisible, setToastVisible] = useState(false)
@@ -21,19 +21,6 @@ function Home() {
     setTimeout(() => setToastVisible(false), 2000)
   }
 
-  function downloadAll() {
-    ['/DavidHong_2026_Resume.pdf', '/DavidHong_2026_Folio.pdf'].forEach((href, i) => {
-      setTimeout(() => {
-        const a = document.createElement('a')
-        a.href = href
-        a.download = ''
-        document.body.appendChild(a)
-        a.click()
-        document.body.removeChild(a)
-      }, i * 150)
-    })
-  }
-
   return (
     <>
       <BackgroundAnimation />
@@ -42,10 +29,10 @@ function Home() {
           <h1 className="name">David Hong</h1>
           <p className="tagline">Design leader. Systems builder.</p>
           <div className="actions">
-            <button className="btn-primary" onClick={downloadAll}>
-              <FaDownload />
-              Download Portfolio
-            </button>
+            <DropdownButton label="Download">
+              <DropdownButton.Item href="/DavidHong_2026_Resume.pdf">Resume</DropdownButton.Item>
+              <DropdownButton.Item href="/DavidHong_2026_Folio.pdf">Portfolio</DropdownButton.Item>
+            </DropdownButton>
             <a className="btn-ghost" href="https://linkedin.com/in/guangpyo" target="_blank" rel="noreferrer">See LinkedIn</a>
             <button className="btn-ghost" onClick={copyEmail}>Copy Email</button>
           </div>
