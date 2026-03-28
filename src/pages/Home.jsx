@@ -39,7 +39,7 @@ function Home() {
         </div>
       </div>
       {toastVisible && <div className="toast">Email copied</div>}
-      <footer className="site-status">Under construction. Check back soon.</footer>
+      <footer className="site-status">More coming soon.</footer>
     </>
   )
 }

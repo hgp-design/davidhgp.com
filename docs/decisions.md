@@ -41,7 +41,7 @@ Added `--tooltip-*` component tokens to centralize tooltip styling and switched 
 
 ## 2026-03-05 — Fixed footer
 
-Added fixed footer with "Under construction. Check back soon." to signal the site is a placeholder without disrupting the centered layout.
+Added fixed footer with "Under construction. Check back soon." to signal the site is a placeholder without disrupting the centered layout. Updated copy to "More coming soon." to avoid implying the site isn't ready.
 
 ---
 
