@@ -16,6 +16,10 @@
   --primitive-amber-dark-hover: hsl(40, 65%, 65%);
   --primitive-amber-light: hsl(40, 75%, 40%);
   --primitive-amber-light-hover: hsl(40, 75%, 32%);
+  --primitive-amber-tint-bg: hsl(40, 15%, 94%);
+  --primitive-amber-tint-surface: hsl(40, 12%, 89%);
+  --primitive-amber-tint-surface-hover: hsl(40, 10%, 84%);
+  --primitive-amber-tint-border: hsl(40, 10%, 72%);
   --primitive-white: hsl(0, 0%, 100%);
 
   /* ─── Semantic tokens — dark theme (default) ─── */
@@ -115,10 +119,10 @@
 
 /* ─── Light theme — semantic token overrides only ─── */
 [data-theme="light"] {
-  --color-background: var(--primitive-neutral-97);
-  --color-surface: var(--primitive-neutral-92);
-  --color-surface-hover: var(--primitive-neutral-87);
-  --color-border: var(--primitive-neutral-55);
+  --color-background: var(--primitive-amber-tint-bg);
+  --color-surface: var(--primitive-amber-tint-surface);
+  --color-surface-hover: var(--primitive-amber-tint-surface-hover);
+  --color-border: var(--primitive-amber-tint-border);
   --color-text-primary: var(--primitive-neutral-13);
   --color-text-secondary: var(--primitive-neutral-35);
   --color-text-muted: var(--primitive-neutral-55);
