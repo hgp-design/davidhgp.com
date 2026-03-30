@@ -30,7 +30,7 @@ function Home() {
           <p className="tagline">Design leader. Systems builder.</p>
           <div className="actions">
             <DropdownButton label="Download">
-              <DropdownButton.Item href="/DavidHong_2026_Resume.pdf">Resume</DropdownButton.Item>
+              <DropdownButton.Item href="/DavidHong_2026_ResumeSM.pdf">Resume</DropdownButton.Item>
               <DropdownButton.Item href="/DavidHong_2026_Folio.pdf">Portfolio</DropdownButton.Item>
             </DropdownButton>
             <a className="btn-ghost" href="https://linkedin.com/in/guangpyo" target="_blank" rel="noreferrer">See LinkedIn</a>
